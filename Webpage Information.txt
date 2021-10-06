@@ -1,0 +1,11 @@
+To fix Python script: 
+	On line 10, replace code with:
+		 return render_template('fm.html',domain='http://INSERT_SERVER_NAME_HERE.exnet.sas.com')
+
+To set up webpage, run these lines of code:
+	cd casuser/
+	cd HMEQ_SITE/
+	export FLASK_APP=app.py
+	flask run
+
+To view webpage, go to this site: http://localhost:5000/
